@@ -1,0 +1,137 @@
+.loginbox{
+    width: 320px;
+    height: 420px; 
+    background: rgba(91, 94, 231, 0.5);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%); 
+    box-sizing: border-box;
+    padding: 70px 30px;
+    background-image: 
+}
+
+h1{
+    text-align: center;
+    margin: 0;
+    font-size: 44px;
+    padding: 0 0 20px;
+}
+
+.loginbox p {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+.loginbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.loginbox input[type="text"], input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.loginbox input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #4250cf;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.loginbox input[type="submit"]:hover{
+cursor: pointer;
+background: rgb(236, 115, 115);
+color: #000;
+}
+
+.loginbox a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgray;
+}
+
+.loginbox a:hover{
+    color: yellow;
+}
+
+body{
+    margin: 0px;
+    background: #fff;
+    font-size: 14px;
+}
+
+.head{
+    margin-bottom: -16px;
+    padding: 40px 0px 0px 0px;
+    margin-left: 192px;
+    background: gray;
+}
+
+.pinggir{
+    background: #3a3633;
+    height: 103%;
+    border-top: 1px solid #FFF;
+    position: fixed;
+    color: white;
+    padding: 0px 0px;
+    margin: -8px;
+    margin-top: -21px;
+}
+
+.pinggir ul{
+    margin: 0px;
+    padding: 0px 0px;
+    list-style: none;
+    width: 200px;
+}
+
+.pinggir ul>li{
+    padding: 7px 15px;
+}
+
+h1{
+    padding: 40px 10px 30px;
+    color: rgba(230, 230, 230,0.9);
+}
+
+.content{
+    margin-left: 190px;
+    margin-top: 20px;
+    padding: 10px 20px;
+}
+
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+table, th, td {
+    border: 1px solid #DDDDDD;
+    border-collapse: collapse;
+    opacity: 0.95;
+}
+th, td {
+    padding: 8px 10px;
+    text-align: left;
+    font-weight: normal;
+}
+
+ ul{
+    display: list-item;
+    position: sticky;
+
+ }
